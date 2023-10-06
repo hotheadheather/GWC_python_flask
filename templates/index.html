@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}
+Home - Flask Boilerplate
+{% endblock %}
+
+{% block content %}
+
+<h1>welcome to the boilerplate</h1>
+
+{% endblock %}
+
+
+{% block content %}
+
+<DOCTYPE html>
+<html>
+<head>
+<title> Hello Hello!</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+<h1>Welcome to the Flask Template</h1>
+<script src= "{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
+
+{% endblock %}
